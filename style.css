@@ -1,0 +1,36 @@
+body{
+    padding: 1rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+}
+nav a{
+    display: flex;
+    align-self: center;
+}
+nav ul{
+    display: flex;
+    gap: 2vw;
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+.centeredLayout{
+    display: flex;
+    
+}
+
+.cards-list{
+    display: flex;
+}
+@media (max-width: 768px){
+    section .cards-list{
+        flex-direction: column;
+    }
+}
